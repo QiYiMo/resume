@@ -8,7 +8,7 @@ import prefetchPlugin from 'vite-plugin-bundle-prefetch';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/sycamore-cottage/',
+  base: '/resume/',
   plugins: [
     vue(),
     compression(),
