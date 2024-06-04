@@ -45,6 +45,6 @@ import Thanks from './views/Thanks/Thanks.vue'
 // 欢迎Fork本项目 - 简历是找工作中最重要的一笔
 // 记得把信息替换成你自己的
 onMounted(() => {
-  document.title = '段菲/2年/前端/本科/北京'
+  document.title = '段菲/前端/本科/北京'
 })
 </script>
