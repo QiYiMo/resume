@@ -11,14 +11,13 @@ export const useCommonStore = defineStore('common', {
     },
     actions: {
         switchTheme() {
-            const app = document.querySelector('#app') as Element;
 
             if (!this.isDark) {
                 this.theme = 'dark'
-                app.classList.add('dark')
+                document.documentElement.classList.add('dark')
             } else {
                 this.theme = 'light'
-                app.classList.remove('dark')
+                document.documentElement.classList.remove('dark')
             }
             console.log("🚢 丝滑切换主题");
         }
