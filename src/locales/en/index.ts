@@ -17,7 +17,7 @@ export default {
         r2: 'Education',
         r2v: 'Digital Media Technology',
         r3: 'Experience',
-        r3v: '1 years',
+        r3v: '2 years',
         r4: 'location',
         r4v: 'Haidian District, Beijing',
         r5: 'Job intention',

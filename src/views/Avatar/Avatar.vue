@@ -59,7 +59,7 @@ const { t } = useI18n()
 }
 
 .bg-me {
-    background: url('/img/avatar.png') no-repeat;
+    background: url('/public/avatar.png') no-repeat;
     background-size: 100%;
 }
 </style>

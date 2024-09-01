@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import Iconfont from '../../Iconfont/Iconfont.vue'
 //@ts-ignore
-import down from '/public/段菲-本科-前端开发工程师.pdf'
+import down from '/public/downPDF.txt'
 const download = () => {
     const a = document.createElement('a')
     a.href = down

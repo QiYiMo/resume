@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 
+
 export const useCommonStore = defineStore('common', {
     state: () => ({
         theme: 'light',
@@ -10,12 +11,14 @@ export const useCommonStore = defineStore('common', {
     },
     actions: {
         switchTheme() {
+            const app = document.querySelector('#app') as Element;
+
             if (!this.isDark) {
                 this.theme = 'dark'
-                document.documentElement.classList.add('dark')
+                app.classList.add('dark')
             } else {
                 this.theme = 'light'
-                document.documentElement.classList.remove('dark')
+                app.classList.remove('dark')
             }
             console.log("🚢 丝滑切换主题");
         }
